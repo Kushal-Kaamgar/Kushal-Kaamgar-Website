@@ -439,7 +439,7 @@ a:focus {
 .service_section .box:hover::before {
   -webkit-transform: scale(5);
           transform: scale(5);
-  background-color: #7335b7;
+  background-color: #53C1BA;
 }
 
 .service_section .box:hover img {
