@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <!-- Basic -->
+    <script src="js/custom.js"></script> <!-- Basic -->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <!-- Mobile Metas -->
@@ -666,7 +666,13 @@ This platform also invites medium, small, and individual contracts to register t
 
 
 
-  <!-- contact section -->
+  
+
+
+
+<!-- contact section -->
+
+  
 
   <section class="contact_section layout_padding">
     <div class="container-fluid">
@@ -678,25 +684,26 @@ This platform also invites medium, small, and individual contracts to register t
                 Contact Us
               </h2>
             </div>
-            <form action="">
+            <div>
+              <label id="lblSendMessage" style="display:none"></label>
               <div>
-                <input type="text" placeholder="Full Name " />
+                <input id="txtFullName" type="text" placeholder="Full Name " />
               </div>
               <div>
-                <input type="email" placeholder="Email" />
+                <input id="txtEmail" type="email" placeholder="Email" />
               </div>
               <div>
-                <input type="text" placeholder="Phone number" />
+                <input id="txtCellphoneNumber" type="text" placeholder="Cellphone number" />
               </div>
               <div>
-                <input type="text" class="message-box" placeholder="Message" />
+                <textarea id="txtMessage" placeholder="Message" class="message-box"></textarea>
               </div>
               <div class="d-flex ">
-                <button>
+                <button onclick="return SendMessage()">
                   SEND
                 </button>
               </div>
-            </form>
+            </div>
           </div>
         </div>
         <div class="col-md-10 col-lg-7 px-0">
@@ -716,10 +723,13 @@ This platform also invites medium, small, and individual contracts to register t
       </div>
     </div>
   </section>
+<!-- end contact section -->
 
-  <!-- end contact section -->
+  
 
-  <div class="footer_container">
+
+
+<div class="footer_container">
     <!-- info section -->
 
     <section class="info_section ">

@@ -381,9 +381,6 @@ a:focus {
   overflow: hidden;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  background-color: #1B75BB;
-  
-  
 }
 
 .service_section .box::before {
@@ -391,14 +388,13 @@ a:focus {
   width: 275px;
   height: 275px;
   position: absolute;
-  /* right: -275px;
-  bottom: -275px;
-  background-color: #1B75BB; */
-  /* z-index: -1; */
+  right: -137.5px;
+  bottom: -137.5px;
+  background-color: #faf8fd;
+  z-index: -1;
   border-radius: 100%;
-  /* -webkit-transition: all 0.3s;
-  transition: all 0.3s; */
-  color: #1B75BB;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .service_section .box .img-box {
@@ -437,7 +433,7 @@ a:focus {
 }
 
 .service_section .box:hover {
-  color: #1B75BB;
+  color: #ffffff;
 }
 
 .service_section .box:hover::before {
@@ -465,7 +461,7 @@ a:focus {
   display: inline-block;
   padding: 10px 45px;
   background-color: #1B75BB;
-  color: #1B75BB;
+  color: #ffffff;
   border-radius: 5px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -492,7 +488,6 @@ a:focus {
 
 .about_section .img-box {
   position: relative;
-  color: #1B75BB;
 }
 
 .about_section .img-box img {
@@ -507,7 +502,7 @@ a:focus {
   display: inline-block;
   padding: 10px 45px;
   background-color: #f8842b;
-  color: #1B75BB;
+  color: #ffffff;
   border-radius: 5px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -516,7 +511,7 @@ a:focus {
 }
 
 .about_section .detail-box a:hover {
-  color: #1B75BB;
+  color: #ffffff;
   -webkit-transform: translateY(-3px);
           transform: translateY(-3px);
 }
@@ -578,7 +573,6 @@ a:focus {
           align-items: center;
   margin: 45px 0;
   text-align: center;
-  color: #1B75BB;
 }
 
 .client_section .box .img-box {
@@ -655,6 +649,27 @@ a:focus {
 
 .contact_section form {
   margin-top: 45px;
+}
+textarea {
+  overflow: auto;
+  resize:both !important;
+  width: 100%;
+  border: none;
+  height: 50px;
+  margin-bottom: 25px;
+  padding-left: 15px;
+  background-color: transparent;
+  outline: none;
+  color: #000000;
+  border: 1px solid #a5a5a5;
+
+  &::placeholder {
+    color: #1c1b1b;
+  }
+
+  &.message-box {
+    height: 120px;
+  }
 }
 
 .contact_section input {
