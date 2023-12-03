@@ -92,7 +92,7 @@ a:focus {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #1B75BB;
+  background-color: #ffffff;
   border-radius: 0 0 350px 0;
 }
 
@@ -102,6 +102,7 @@ a:focus {
 }
 
 .header_section {
+  background-color: #ffffff;
   padding: 15px 0;
 }
 
@@ -126,7 +127,7 @@ a:focus {
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
   padding: 5px 25px;
-  color: #ffffff;
+  color: #53C1BA;
   text-align: center;
   text-transform: uppercase;
   border-radius: 5px;
@@ -135,7 +136,7 @@ a:focus {
 }
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
-  color: #000000;
+  color: #1B75BB;
   background-color: #ffffff;
 }
 
@@ -289,7 +290,7 @@ a:focus {
 
 .slider_section .detail-box {
   text-align: center;
-  color: #ffffff;
+  color: #1B75BB;
 }
 
 .slider_section .detail-box h1 {
@@ -358,12 +359,13 @@ a:focus {
 .slider_section .carousel-indicators li.active {
   width: 23px;
   height: 23px;
-  background-color: #f8842b;
+  background-color: blue;
 }
 
 .service_section {
   text-align: center;
 }
+
 
 .service_section .heading_container {
   -webkit-box-align: center;
@@ -456,6 +458,8 @@ a:focus {
           justify-content: center;
   margin-top: 45px;
 }
+
+
 
 .service_section .btn-box a {
   display: inline-block;
